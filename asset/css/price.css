@@ -1,0 +1,119 @@
+/* price ******************************************************/
+
+#price .container .price {
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    background: url(../images/price/bg_price.png) no-repeat;
+}
+
+#price .container .price h3 {
+    text-align: left;
+    padding: 30px 0px 0px 40px;
+    font-size: 1.5em;
+}
+
+#price .container .price p:first-of-type {
+    padding-top: 0.4em;
+    font-size: 3em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+}
+
+#price .container .price p:last-of-type {
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+#price .container .time {
+    margin-top: 50px;
+}
+
+#price .container .box dl {
+    text-align: left;
+}
+
+#price .container .attention {
+    margin: 50px 50px 0px 0px;
+}
+
+#price .container dt {
+    font-size: 1.7em;
+    text-align: left;
+    display: inline;
+}
+
+#price .container dd {
+    width: 85%;
+    padding: 20px 0px 10px 25px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#price .container dt::before {
+    content: url(../images/price/line.png);
+    display: block;
+}
+
+#price .container dt::after {
+    content: url(../../asset/images/price/cat_back.png);
+}
+
+
+#price .container dl::after {
+    content: url(../images/price/line.png);
+    display: block;
+}
+
+/* mediaquery *****************************************************/
+
+@media screen and (max-width: 560px) {
+    
+    /* price *****************************************************/
+
+    #price .box img {
+        display: none;
+    }
+
+    #price .container .price,
+    #price .container .time,
+    #price .container .attention {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        margin: 30px auto;
+    }
+
+    #price .container .price {
+        color: #a6681c;
+        background: url(../../asset/images/all/recomend_bg01.png) no-repeat;
+    }
+
+    #price .container .price h3 {
+        padding-top: 70px;
+    }
+
+    #price .container dt {
+        font-size: 1.4em;
+        margin: 10%;
+    }
+
+    #price .container dt::before,
+    #price .container dl::after {
+        display: none;
+    }
+
+    #price .container dd {
+        width: 95%;
+        text-align: center;
+    }
+
+    #price .container .time {
+        background: url(../../asset/images/all/recomend_bg02.png) no-repeat;
+    }
+
+    #price .container .attention {
+        background: url(../../asset/images/all/recomend_bg03.png) no-repeat;
+    }
+}

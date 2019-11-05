@@ -1,0 +1,119 @@
+/* reception ******************************************************/
+
+#sp_reception {
+    display: none;
+}
+
+#reception .text {
+    height: 450px;
+    color: #fff;
+    background: url(../../asset/images/about/bg_reception.png);
+    background-repeat: no-repeat;
+}
+
+#reception .text p {
+        width: 800px;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 4% 0 0 5%;
+        line-height: 3.3rem;
+}
+
+/* what ******************************************************/
+
+#what .box {
+    margin-bottom: 40px;
+    position: relative;
+    height: 280px;
+}
+
+#what .box:nth-child(2) {
+    background: url(../../asset/images/about/bg_question01.png) no-repeat;
+}
+
+#what .box:nth-child(4) {
+    background: url(../../asset/images/about/bg_question02.png) no-repeat;
+}
+
+#what .box:nth-child(6) {
+    background: url(../../asset/images/about/bg_question03.png) no-repeat;
+}
+
+#what .box img {
+    width: 100%;
+    max-width: 253px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+#what .box p:first-of-type {
+    font-size: 2rem;
+    padding: 35px 0px 0px 200px;
+}
+
+#what .box p:last-of-type {
+    width: 60%;
+    padding: 20px 0px 0px 330px;
+    text-align: left;
+}
+
+#what .sp_what {
+    display: none;
+}
+
+/* mediaquery **********************************************************************************************************/
+
+@media screen and (max-width: 560px) {
+    
+    /* reception *****************************************************/
+
+    #reception {
+        display: none;
+    }
+
+    #sp_reception {
+        display: block;
+    }
+
+    #sp_reception .visual {
+        margin-top: 20px;
+    }
+
+    #sp_reception .visual img {
+        max-width: 50%;
+    }
+
+    #sp_reception p {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* what *****************************************************/
+
+    #what .box {
+        display: none;
+    }
+
+    #what .sp_what {
+        display: block;
+    }
+
+    #what .sp_what .visual img {
+        width: 90%;
+    }
+
+    #what .sp_what .text {
+        width: 80%;
+        margin: auto;
+    }
+
+    #what .sp_what .text p:first-of-type {
+        margin: 25px;
+        font-size: 1.4em;
+    }
+    #what .sp_what .text p:nth-of-type(2) {
+        margin-bottom: 40px;
+    }
+
+}

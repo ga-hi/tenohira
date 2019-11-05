@@ -1,0 +1,99 @@
+/* flow *****************************************************/
+
+#flow h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#flow .flow_content p {
+    margin: 15px 0px 60px 0px;
+}
+
+#flow .flow_content .visual img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* reception *****************************************************/
+
+#reception .text {
+    height: 400px;
+    background: url(../images/flow/bg_flow.png) no-repeat;
+    margin: auto;
+    padding-top: 80px;
+    color: #fff;
+}
+
+#reception .text p:nth-of-type(1) {
+    font-size: 1.5em;
+}
+
+#reception .text p:nth-of-type(2) {
+    width: 550px;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 50px auto;
+}
+
+#reception .text p:nth-of-type(3) {
+    margin-top: 30px;
+
+}
+
+#sp_reception {
+    display: none;
+}
+
+/* mediaquery *****************************************************/
+
+@media screen and (max-width: 560px) {
+    
+    /* flow *****************************************************/
+
+    #flow h3 {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    #flow .flow_content br {
+        display: none;
+    }
+
+    #flow .flow_content .visual img {
+        width: 90%;
+    }
+
+    #flow .flow_content p {
+        width: 80%;
+        font-size: 0.9em;
+        margin: 15px auto 40px;
+    }
+
+    /* reception *****************************************************/
+
+    #reception {
+        display: none;
+    }
+
+    #sp_reception {
+        display: block;
+    }
+
+    #sp_reception p {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* contact ******************************************************/
+
+    #contact {
+        display: none;
+    }
+
+    /* appointment ******************************************************/
+
+    #appointment {
+        margin-top: 20px;
+    }
+
+}

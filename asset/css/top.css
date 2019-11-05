@@ -1,0 +1,39 @@
+/* content *****************************************************/
+
+#content .box .visual {
+	overflow: hidden;
+	width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+#content .box img {
+	display: block;
+	transition-duration: 0.7s;
+}
+#content .box img:hover {
+	transform: scale(1.1);
+	transition-duration: 0.7s;
+}
+
+/* banner *****************************************************/
+
+#banner .container {
+    justify-content: center;
+}
+
+#banner .bloglink {
+    margin-right: 10%;
+}
+
+/* mediaquery *****************************************************/
+
+@media screen and (max-width: 560px) {
+    
+	/* content *****************************************************/
+
+	#content .box .visual {
+		margin: 50px auto;
+	}
+
+}
